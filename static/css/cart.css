@@ -1,0 +1,29 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+
+
+
+.table th {
+	
+    color: #800000;
+	font-weight: bolder;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.table > tbody > tr > td {
+     vertical-align: middle;
+}
+
+
+
+h2,h4,li,a {
+	
+	font-family: 'Ubuntu', sans-serif; font-weight:normal;
+	color: #800000;
+}
+
+.jumbotron{
+	
+	font-family: 'Ubuntu', sans-serif; font-weight:normal;
+	color: #000080;
+}
+

@@ -1,0 +1,10 @@
+{% if products.count > 0 %}
+
+        {% for product in products %}
+                <li><a href="{{ product.get_absolute_url }}">{{ product.title }}</a></li>            
+        {% endfor %}
+
+        {% else %}
+                <li>None To Show.</li>
+
+        {% endif %}

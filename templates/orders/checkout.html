@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+ {% load staticfiles %}
+
+ {% block css %} 
+    <link href="{% static 'css/create.css' %}" rel="stylesheet" type='text/css' />
+{% endblock %}
+
+
+ {% block content %}
+
+<div class="container">
+    <div class='row'>
+        <div class="col-md-4">
+            <h3 id='my_cart'>My Cart</h3>
+                <table class="table table-condensed">
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Quantity</th>
+                            <th>Subtotal</th>
+                        </tr>
+                    </thead>
+
+                <tbody>
+                    {% for item in cart_items %}
+                        <tr>
+                            <td>{{ item.product }}</td>
+                            <td>{{ item.quantity }}</td>
+                            <td>${{ item.total }}</td>
+                        </tr>
+                    {% endfor %}<hr id="top">
+                    
+                </table><hr id="bottom">                
+               <tr class="total">
+               <td colspan="4"></td>
+                  <td class='text-right' id="cart_total">Total: ${{ cart_total }}
+                        <form action="." method="POST" id="stripe_button">{% csrf_token %}
+                          <script
+                            src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                            data-key="{{ publishable_key }}"
+                            data-amount="{{ stripe_amount }}"
+                            data-name="Chris Kavanagh"
+                            data-description="Widget"
+                            data-image="{% static 'img/favicon.ico' %}"
+                            data-zip-code="true"
+                            data-billing-address="true"
+                            data-locale="auto">
+                          </script>
+                        </form>
+                  </td>
+                </tr>
+            </tbody>
+        </div>   
+    </div>
+</div>
+{% endblock %}

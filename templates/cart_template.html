@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block title %}Shopping Cart{% endblock %}
+
+{% block css %} 
+    <link href="{% static 'css/cart.css' %}" rel="stylesheet" type='text/css' />
+{% endblock %}
+
+{% block jumbotron %} {% endblock %}
+
+{% block content %}
+
+    <div class="container">
+        <div class='row'>
+            <div class="col-md-12">
+
+        <h2>Shopping Cart</h2>
+        <caption><b>Your Shopping Cart:</b> {{ cart_items_count }} Items In Your Cart.</caption>
+       <hr>
+
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th class="text-center">Product</th>
+                        <th class="text-center">Unit Price</th>
+                        <th class="text-center">Sub-Total</th>
+                        <th class="col-sm-3 text-center">Quantity</th>
+                        <th class="text-center">Remove</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+            {% for obj in objects %}
+
+                    <tr>
+                        <td class="text-center"><a href="{{ obj.item.product.get_absolute_url }}">{{ obj.item.product }}</a></td>
+                        <td class="text-center">${{ obj.item.product.price }}</td> 
+                       {# <td><img class="img-thumbnail" src="{{ obj.item.product.image.url }}" width="100" height="50"></td> #}
+                        <td class="text-center">{{ obj.item.total }}</td>
+                        <td>                        
+                            <form role="form" action="{% url 'cart:add' obj.item.product.slug %}" method="POST">
+                                <div class="form-group">                              
+                                    {% csrf_token %}
+
+                                <div class="col-xs-4">                     
+                                    {{ obj.form.quantity }}
+                                    {{ obj.form.update }}
+                                </div>                                                                
+                                <input class='btn btn-success btn-md' type='submit' value='Update'/>
+                                </div> 
+                            </form>
+                        </td>
+                            <td class='text-center'><a class="btn btn-warning" href="{% url 'cart:remove' obj.item.pk %}" role="button">Remove</a></td>      
+                        
+                    </tr>
+
+            {% empty %}
+                <h3>You Have Nothing In Your Cart.</h3>
+            {% endfor %}
+
+                </tbody>
+            </table>       
+     </div>
+  </div>    
+</div>
+{% endblock %}

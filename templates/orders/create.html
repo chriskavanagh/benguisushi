@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% load crispy_forms_tags %}
+
+{% block title %}My Order{% endblock %}
+
+
+{% block css %} 
+    <link href="{% static 'css/create.css' %}" rel="stylesheet" type='text/css' />
+{% endblock %}
+
+{% block jumbotron %} {% endblock %}
+
+
+{% block content %}
+
+    <div class="container">
+        <div class='row'>
+            <div class="col-md-12">
+    <div class="page-header">
+          <h1 id="header">django-ecommerce</h1>
+    </div>
+        </div>
+            </div></hr></hr>
+
+
+
+  <div class='row'>
+    <div class="col-md-8">
+        <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title text-center">Enter Name & Billing Address</h3>
+                </div>
+    <form action = "." method="POST">
+        {% csrf_token %}
+        {{ form|crispy }}
+        <input class="btn btn-lg btn-block" type='submit' id="button" value='Continue To Checkout'/>
+    </form>
+
+</div>
+    </div>
+
+        <div class="col-md-2 pull-right">
+            <h3 id='my_cart'>My Cart</h3>
+                <table class="table table-condensed">
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Quantity</th>
+                            <th>Subtotal</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                    {% for item in cart_items %}
+                        <tr>
+                            <td>{{ item.product }}</td>
+                            <td>{{ item.quantity }}</td>
+                            <td>${{ item.total }}</td>
+                        </tr>
+                    {% endfor %}<hr id="top">
+                    
+                </table><hr id="bottom">                
+               <tr class="total">
+               <td colspan="4"></td>
+                  <td class='text-right'>Total: ${{ cart_total }}</td>
+              </tr>
+            </tbody>
+
+        
+    </div>
+
+{% endblock %}

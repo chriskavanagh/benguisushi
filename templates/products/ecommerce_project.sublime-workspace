@@ -1,0 +1,691 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"produc",
+				"product_slug"
+			],
+			[
+				"end",
+				"endblock"
+			],
+			[
+				"TIME",
+				"TIME_ZONE"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"S",
+				"SignUpResource	class"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"Si",
+				"SignUpForm〔module〕"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Django/django_projects/my_env/src/templates/base.html",
+			"settings":
+			{
+				"buffer_size": 7586,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "single.html",
+			"settings":
+			{
+				"buffer_size": 2683,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Django/django_projects/my_env/src/templates/500.html",
+			"settings":
+			{
+				"buffer_size": 3388,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Django/django_projects/my_env/src/templates/search.html",
+			"settings":
+			{
+				"buffer_size": 269,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Django/django_projects/my_env/src/templates/home.html",
+			"settings":
+			{
+				"buffer_size": 475,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Django/django_projects/my_env/src/templates/cart_id/cart.html",
+			"settings":
+			{
+				"buffer_size": 2710,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Django/django_projects/my_env/src/templates/modal.html",
+			"settings":
+			{
+				"buffer_size": 1064,
+				"line_ending": "Windows",
+				"name": "<div class=\"modal fade\">"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "inst",
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: s",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: I",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Chris/Documents/django_projects/my_env",
+		"/C/Django/django_projects/my_env",
+		"/C/Django/django_projects/my_env/src",
+		"/C/Django/django_projects/my_env/src/templates",
+		"/C/Django/django_projects/my_env/src/templates/cart_id",
+		"/C/Django/django_projects/my_env/src/templates/orders",
+		"/C/Django/django_projects/my_env/src/templates/products"
+	],
+	"file_history":
+	[
+		"/C/Django/django_projects/my_env/src/templates/dialog.html",
+		"/C/Django/django_projects/my_env/src/templates/register.html",
+		"/C/Django/django_projects/my_env/src/templates/login_user.html",
+		"/C/Django/django_projects/my_env/src/templates/orders/create.html",
+		"/C/Django/django_projects/my_env/src/templates/orders/checkout.html",
+		"/C/Django/django_projects/my_env/src/templates/my_cart.html",
+		"/C/Django/django_projects/my_env/src/templates/original_base.html",
+		"/C/Django/django_projects/my_env/src/templates/base_copy.html",
+		"/C/Django/django_projects/my_env/src/templates/orders/test.html",
+		"/C/Django/django_projects/my_env/src/templates/home.html",
+		"/C/Django/django_projects/my_env/src/templates/products/all.html",
+		"/C/Users/Chris/Desktop/Django By Example/Django_By_Example_Code/Chapter 7/myshop/cart/templates/cart/detail.html",
+		"/C/Django/django_projects/my_env/src/templates/products/single.html",
+		"/C/Django/django_projects/my_env/src/templates/cart_id/cart.html",
+		"/C/Django/django_projects/my_env/src/templates/base.html",
+		"/C/Users/Chris/Desktop/Django By Example/Django_By_Example_Code/Chapter 7/myshop/orders/templates/orders/order/created.html",
+		"/C/Users/Chris/Desktop/Django By Example/Django_By_Example_Code/Chapter 7/myshop/orders/templates/orders/order/create.html",
+		"/C/Users/Chris/Desktop/OnlineShop/env/myshop/src/myshop/settings.py",
+		"/C/Django/django_projects/my_env/src/templates/orders/thanks.html",
+		"/C/Django/django_projects/my_env/src/templates/orders/checkout3.html",
+		"/C/Django/django_projects/my_env/src/templates/orders/checkout2.html",
+		"/C/Django/django_projects/my_env/src/templates/orders/checkout4.html",
+		"/C/Django/django_projects/my_env/copies/new_cart.html",
+		"/C/Django/crash-course/src/templates/myaccounts/signup.html",
+		"/C/Users/Chris/Desktop/new_cart.html",
+		"/C/Users/Chris/Desktop/ecommerce-master/ecommerce-master/ecommerce/templates/products/single.html",
+		"/C/Users/Chris/Desktop/django-ecommerce/Beginning_Django_Ecommerce_source/Chapter_01-15/ecomstore/checkout/checkout.py",
+		"/C/Users/Chris/Desktop/django-ecommerce/Beginning_Django_Ecommerce_source/Chapter_01-15/ecomstore/checkout/views.py",
+		"/C/Users/Chris/Desktop/django-ecommerce/Beginning_Django_Ecommerce_source/Chapter_01-15/ecomstore/cart/cart.py",
+		"/C/Django/django_projects/my_env/src/templates/cart_template.html",
+		"/C/Users/Chris/Desktop/cart.html",
+		"/C/Django/django_projects/my_env/src/templates/bootstrap_navbar.html",
+		"/C/Users/Chris/Desktop/ecommerce-master/ecommerce-master/ecommerce/templates/products/home.html",
+		"/C/Users/Chris/Desktop/ecommerce-master/ecommerce-master/ecommerce/templates/base.html",
+		"/C/Users/Chris/Desktop/ecommerce-master/ecommerce-master/ecommerce/templates/modal.html",
+		"/C/Django/django_projects/my_env/src/templates/jumbotron.html",
+		"/C/Users/Chris/Desktop/test.py",
+		"/C/Users/Chris/Desktop/Django By Example/Django_By_Example_Code/Chapter 7/myshop/shop/templates/shop/product/detail.html",
+		"/C/Users/Chris/Desktop/django-ecommerce/Beginning_Django_Ecommerce_source/Chapter_01-15/ecomstore/templates/cart/cart.html",
+		"/C/Users/Chris/Desktop/django-ecommerce/Beginning_Django_Ecommerce_source/Chapter_01-15/ecomstore/templates/cart/cart_ajax.html",
+		"/C/Users/Chris/Desktop/ecommerce-master/ecommerce-master/ecommerce/templates/products/all.html",
+		"/C/Users/Chris/Desktop/django-ecommerce/Beginning_Django_Ecommerce_source/Chapter_01-15/ecomstore/templates/catalog/product.html",
+		"/C/Users/Chris/Desktop/django-ecommerce/Beginning_Django_Ecommerce_source/Chapter_01-15/ecomstore/cart/views.py",
+		"/C/Django/django_projects/my_env/src/products/admin.py",
+		"/C/Users/Chris/Desktop/django-ecommerce/Beginning_Django_Ecommerce_source/Chapter_01-15/ecomstore/catalog/models.py",
+		"/C/Users/Chris/Desktop/ecommerce-master/ecommerce-master/ecommerce/ecommerce/urls.py",
+		"/C/Users/Chris/Desktop/ecommerce-master/ecommerce-master/ecommerce/products/views.py",
+		"/C/Users/Chris/Desktop/ecommerce-master/ecommerce-master/ecommerce/products/models.py",
+		"/C/Users/Chris/Desktop/ecommerce-master/ecommerce-master/ecommerce/products/admin.py",
+		"/C/Users/Chris/Desktop/django-ecommerce/Beginning_Django_Ecommerce_source/Chapter_01-15/ecomstore/cart/models.py",
+		"/C/Users/Chris/Desktop/ecommerce-master/ecommerce-master/ecommerce/carts/models.py",
+		"/C/Users/Chris/Desktop/ecommerce-master/ecommerce-master/ecommerce/carts/views.py",
+		"/C/Users/Chris/Documents/django_projects/my_env/src/templates/base.html",
+		"/C/Users/Chris/Documents/django_projects/my_env/src/templates/home.html",
+		"/C/Users/Chris/Documents/django_projects/my_env/src/cart/models.py",
+		"/C/Users/Chris/Desktop/Django By Example/Django_By_Example_Code/Chapter 7/myshop/shop/models.py",
+		"/C/Users/Chris/Desktop/Django By Example/Django_By_Example_Code/Chapter 7/myshop/cart/models.py",
+		"/C/Users/Chris/Documents/django_projects/my_env/src/templates/navbar.html",
+		"/C/Users/Chris/Documents/django_projects/my_env/src/ecommerce/views.py",
+		"/C/Users/Chris/Documents/django_projects/my_env/src/products/templates/home.html",
+		"/C/Users/Chris/Desktop/coding_entrepreneurs/my_env/ecommerce/templates/base.html",
+		"/C/Users/Chris/Desktop/blog/my_env/src/templates/blog/post/detail.html",
+		"/C/Users/Chris/Desktop/blog/my_env/src/templates/blog/post/share.html",
+		"/C/Users/Chris/Desktop/blog/my_env/src/templates/blog/post/list.html",
+		"/C/Users/Chris/Desktop/blog/my_env/src/templates/blog/post/latest_posts.html",
+		"/C/Users/Chris/Desktop/OnlineShop/env/myshop/src/templates/shop/products/list.html",
+		"/C/Users/Chris/Desktop/Django By Example/Django_By_Example_Code/Chapter 9/myshop/shop/views.py",
+		"/C/Users/Chris/Desktop/blog/my_env/src/mysite/urls.py",
+		"/C/Users/Chris/Desktop/blog/my_env/src/templates/blog/base.html",
+		"/C/Users/Chris/Desktop/blog/my_env/src/templates/blog/post/search.html",
+		"/C/Users/Chris/Desktop/Django By Example/Django_By_Example_Code/Chapter 9/myshop/cart/views.py",
+		"/C/Users/Chris/Desktop/OnlineShop/env/myshop/src/templates/cart/detail.html",
+		"/C/Users/Chris/Desktop/Django By Example/Django_By_Example_Code/Chapter 3/mysite/blog/templates/blog/post/detail.html",
+		"/C/Users/Chris/Desktop/Django By Example/Django_By_Example_Code/Chapter 3/mysite/blog/views.py",
+		"/C/Users/Chris/Desktop/Django By Example/Django_By_Example_Code/Chapter 2/mysite/blog/views.py",
+		"/C/Users/Chris/Desktop/blog/my_env/src/static/css/blog.css",
+		"/C/Users/Chris/Desktop/blog/my_env/src/templates/pagination.html",
+		"/C/Users/Chris/Desktop/Django By Example/Django_By_Example_Code/Chapter 3/mysite/blog/templates/blog/post/share.html",
+		"/C/Users/Chris/Desktop/blog/my_env/src/templates/blog/posts/list.html",
+		"/C/Users/Chris/Desktop/Django By Example/Django_By_Example_Code/Chapter 8/myshop/cart/templates/cart/detail.html",
+		"/C/Users/Chris/Desktop/trydjango19/src/templates/post_list.html",
+		"/C/Users/Chris/Desktop/Django By Example/Django_By_Example_Code/Chapter 2/mysite/blog/static/css/blog.css",
+		"/C/Users/Chris/Desktop/OnlineShop/env/myshop/src/templates/shop/products/detail.html",
+		"/C/Users/Chris/Desktop/OnlineShop/env/myshop/src/templates/shop/base.html",
+		"/C/Users/Chris/Desktop/OnlineShop/env/myshop/src/coupons/views.py",
+		"/C/Users/Chris/Desktop/Django By Example/Django_By_Example_Code/Chapter 1/mysite/blog/static/css/blog.css",
+		"/C/Users/Chris/Desktop/OnlineShop/env/myshop/src/payment/models.py",
+		"/C/Users/Chris/Desktop/OnlineShop/env/myshop/src/myshop/urls.py",
+		"/C/Users/Chris/Desktop/Django By Example/Django_By_Example_Code/Chapter 7/myshop/shop/templates/shop/product/list.html",
+		"/C/Users/Chris/Desktop/OnlineShop/env/myshop/src/templates/payment/done.html",
+		"/C/Users/Chris/Desktop/OnlineShop/env/myshop/src/templates/payment/canceled.html",
+		"/C/Users/Chris/Desktop/OnlineShop/env/myshop/src/templates/payment/process.html",
+		"/C/Users/Chris/Documents/Django/Mike Hibbert Django/hibbert-django/article/templates/articles.html",
+		"/C/Users/Chris/Desktop/django-email/src/templates/registration/login.html",
+		"/C/Users/Chris/Desktop/allauth/src/templates/home.html",
+		"/C/Users/Chris/Desktop/allauth/src/templates/profile.html",
+		"/C/Users/Chris/Desktop/social_auth/src/templates/index.html",
+		"/C/Users/Chris/Desktop/django-email/src/email_login/settings.py",
+		"/C/Users/Chris/Desktop/allauth/src/allauth_project/settings.py",
+		"/C/Users/Chris/Desktop/ea/src/custom_user/models.py",
+		"/C/Users/Chris/Desktop/ea/src/email_authentication/settings.py",
+		"/C/Users/Chris/Desktop/social_auth/src/templates/facebook_sdk.html",
+		"/C/Users/Chris/Desktop/allauth/venv/Lib/site-packages/allauth/templates/account/login.html",
+		"/C/Users/Chris/Desktop/allauth/src/templates/base.html",
+		"/C/Users/Chris/Desktop/django-email/src/templates/base.html",
+		"/C/Users/Chris/Desktop/django-email/src/templates/create_user.html",
+		"/C/Users/Chris/Desktop/ea/src/templates/register.html",
+		"/C/Users/Chris/Desktop/django-email/src/templates/home.html",
+		"/C/Users/Chris/Desktop/ea/src/templates/login.html",
+		"/C/Users/Chris/Desktop/ea/src/templates/loggedin.html",
+		"/C/Users/Chris/Desktop/ea/src/templates/invalid_login.html",
+		"/C/Users/Chris/Desktop/ea/src/templates/base.html",
+		"/C/Users/Chris/Desktop/ea/src/templates/home.html",
+		"/C/Users/Chris/Desktop/closures.py",
+		"/C/Users/Chris/Desktop/Development/src/article/models.py",
+		"/C/Users/Chris/Desktop/CustomUserModel/ea/custom_user/models.py",
+		"/C/Users/Chris/Desktop/Development/src/templates/talks/talklist_form.html",
+		"/C/Users/Chris/Desktop/CustomUserModel/ea/templates/home.html",
+		"/C/Users/Chris/Desktop/ea/src/templates/404.html",
+		"/C/Users/Chris/Desktop/ea/src/templates/500.html",
+		"/C/Users/Chris/Documents/Django/MikeHibbert/templates/404.html",
+		"/C/Users/Chris/Desktop/trydjango19/src/templates/post_detail.html",
+		"/C/Users/Chris/Desktop/trydjango19/src/templates/post_form.html",
+		"/C/Users/Chris/Desktop/trydjango19/src/templates/food_form.html",
+		"/C/Users/Chris/Desktop/trydjango19/src/templates/sign_up.html",
+		"/C/Users/Chris/Desktop/trydjango19/src/templates/base.html",
+		"/C/Users/Chris/Desktop/trydjango19/src/templates/home.html",
+		"/C/Users/Chris/Desktop/ecommerce/src/templates/catalog/catalog.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"')",
+			"logIcon",
+			"!\"",
+			"messages",
+			"message",
+			"What's",
+			"Download"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Django/django_projects/my_env/src/templates/base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7586,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6429,
+								6429
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1755.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "single.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2683,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								763,
+								763
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Django/django_projects/my_env/src/templates/500.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3388,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								470,
+								470
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Django/django_projects/my_env/src/templates/search.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 269,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								162,
+								162
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Django/django_projects/my_env/src/templates/home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 475,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								397,
+								397
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Django/django_projects/my_env/src/templates/cart_id/cart.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2710,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2315,
+								2315
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Django/django_projects/my_env/src/templates/modal.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1064,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								452,
+								452
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_name": "<div class=\"modal fade\">",
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "ecommerce_project.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\Chris\\Desktop\\trydjango19\\src\\templates\\post_form.html"
+			],
+			[
+				"talklis",
+				"src\\templates\\talks\\talklist_detail.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 188.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

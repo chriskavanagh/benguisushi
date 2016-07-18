@@ -1,0 +1,52 @@
+
+@import url(https://fonts.googleapis.com/css?family=Arima+Madurai);
+
+
+@font-face {
+    font-family: Chunkfive;
+    src: url(Chunkfive.otf);
+}
+
+
+p {
+	font-family: 'Arima Madurai', cursive;
+	
+}
+
+
+#logIcon {
+	
+    display: inline-block;
+    font-family: "Glyphicons Halflings";
+    font-style: normal;
+    font-weight: 400;
+    line-height: .5;    
+    top: 1px;
+	color: #b34d4d;
+	font-size: 30px;	
+}
+
+img {
+	
+    max-width: 50%;
+    height: auto;
+}
+
+.badge {
+	
+	color: #b34d4d;
+	background-color:  whitesmoke;
+	position: relative;
+	right: 13px;
+}
+
+.navbar-fixed-top  {
+	
+	background: midnightblue;
+	
+}
+
+li > a {
+	
+	color: #fff;
+}

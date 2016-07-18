@@ -1,0 +1,83 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+@import url(https://fonts.googleapis.com/css?family=Arima+Madurai);
+
+
+@font-face {
+    font-family: Chunkfive;
+    src: url(Chunkfive.otf);
+}
+
+
+h1, h2, h3, p {
+	
+	/*font-family: 'Ubuntu', sans-serif; font-weight:normal;*/
+	font-family: 'Arima Madurai', cursive;	
+	color: #800000;
+}
+
+#button {
+	
+	color: white;
+	background-color: #800000;
+}
+
+#top {
+	border: solid 1px;
+	color: #800000;
+	
+}
+
+/*
+#bottom {
+	height: 25px;
+	border: solid 1px;	
+	color: #800000;
+	
+}
+*/
+
+#total {
+	
+	position: relative;
+	bottom: 41px;
+	left: 65px;
+	color: black;
+	font-weight: bold;
+	
+}
+
+#my_cart {
+	
+	position: relative;
+	top: 15px;
+	left: 44px;
+	display: block;
+	
+}
+
+#header {
+	position: relative;
+	left: 230px;
+}
+
+
+.total {
+    text-align:right;
+		
+}
+
+
+#stripe_button {
+	
+	position: relative;
+	top: 10px;
+	right: 15px;
+}
+
+#cart_total {
+	font: bold;
+	font-weight: bold;
+}
+
+
+

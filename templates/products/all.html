@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block css %} 
+    <link href="{% static 'css/cart.css' %}" rel="stylesheet" type='text/css' />
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+
+        <h2>Our Products:</h2>
+        <p><b><i>Shipped For FREE! Guaranteed To Last.</i></b></p>
+        <hr>
+
+        <ul>
+            {% for product in products %}
+                <li><h4><a href="{{ product.get_absolute_url }}">{{ product }}: ${{ product.price }}</a></h4></li>
+            {% endfor %}
+        </ul>
+
+    </div>
+{% endblock %}

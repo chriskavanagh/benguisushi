@@ -1,0 +1,10 @@
+<div id="dialog" title="Shopping Cart">Shopping Cart</div>
+    {% for item in cart_items %}
+
+        <p>({{ item.quantity }}) {{ item.name }} - ${{ item.product.price }}</p>
+
+    {% endfor %}<hr>
+              
+        <p>Sub-Total - ${{ cart_total }}</p>
+
+

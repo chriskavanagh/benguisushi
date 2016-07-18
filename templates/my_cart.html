@@ -1,0 +1,14 @@
+<div id="popup">
+
+{% if cart_items.count > 0 %}
+
+        {% for item in cart_items %}
+                <li id="products">{{ item.product }} - ${{ item.product.price }}</li>            
+        {% endfor %}
+
+        {% else %}
+                <li>None To Show.</li>
+
+        {% endif %}
+
+ </div>

@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% load crispy_forms_tags %}
+
+{% block title %}Register For Our Site!{% endblock %}
+
+
+{% block jumbotron %} {% endblock %}
+
+{% block content %}
+
+<div class="container">
+            <div class='row'>
+                <div class='col-sm-12'>
+                    <div class="well"><h1><center>Register For Our Site!</center></h1></div>
+                    
+            <div class='row'>
+                <div class='col-sm-12'>
+                    <hr></hr>
+                </div>
+            </div>
+            
+            <div class='row'>
+                <div class='col-sm-12'>
+                    <hr></hr>
+                </div>
+            </div>
+
+
+    <div class='row'>
+        <div class='col-sm-6 col-sm-offset-3'>
+
+            <form action="." method="POST">
+                {% csrf_token %}
+                {{ form|crispy }}
+                <input class='btn btn-primary btn-lg btn-block' type='submit' value='Sign Up Today!' />
+            </form>
+
+        </div>
+    </div>
+{% endblock %}
